@@ -16,8 +16,14 @@
 
 .gutter {
     width: 84px;
+    position: absolute;
+    z-index: 2;
 }
 
 .gutter:hover {
     width: $left-pane-width;
+}
+
+.conversation-stack {
+    margin-left: 84px;
 }
