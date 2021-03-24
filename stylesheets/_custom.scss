@@ -1,0 +1,29 @@
+.module-conversation-list-item__content {
+    display: none;
+}
+
+.gutter:hover .module-conversation-list-item__content {
+  display: flex;
+}
+
+.module-main-header__search {
+    display: none;
+}
+
+.gutter:hover .module-main-header__search {
+    display: flex;
+}
+
+.gutter {
+    width: 84px;
+    position: absolute;
+    z-index: 2;
+}
+
+.gutter:hover {
+    width: $left-pane-width;
+}
+
+.conversation-stack {
+    margin-left: 84px;
+}
