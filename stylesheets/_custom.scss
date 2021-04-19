@@ -1,16 +1,12 @@
-.module-conversation-list-item__content {
+.module-main-header__search,
+.module-main-header__compose-icon,
+.module-conversation-list__item--contact-or-conversation__content {
     display: none;
 }
 
-.gutter:hover .module-conversation-list-item__content {
-  display: flex;
-}
-
-.module-main-header__search {
-    display: none;
-}
-
-.gutter:hover .module-main-header__search {
+.gutter:hover .module-main-header__search,
+.gutter:hover .module-main-header__compose-icon,
+.gutter:hover .module-conversation-list__item--contact-or-conversation__content {
     display: flex;
 }
 
